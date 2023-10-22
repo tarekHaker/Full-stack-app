@@ -1,0 +1,92 @@
+
+
+.App {
+    padding: auto;
+    margin-top: 10px !important;
+    height: 100vh;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    margin: 0px;
+    height: 100vh;
+    
+  }
+  
+
+
+  
+  h1 {
+    color: #007BFF;
+  }
+  
+
+  form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+  }
+  
+  label {
+    margin-bottom: 70px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  input[type="number"]
+  {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+  }
+  select {
+    width: 97%;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+  }
+  
+ 
+   
+  button:hover{
+    background-color:hwb(124 57% 9%) ;
+    transition: background-color 0.3s ease;
+  }
+  
+ 
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 10px;
+  }
+  
+  table, th, td {
+    border: 1px solid #333;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  
+  h2 {
+    margin: 20px 0;
+  }
+   .search {
+    width: 200px !important;
+   
+    margin-left: 0%;
+   }
+  
+  button{
+    width: 60px;
+    padding: 5px;
+    background-color: #b1cce9;
+    border: none;
+  }
+  span{ 
+    margin-left: 200px;
+    width: 100%;
+  }
